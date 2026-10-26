@@ -1,0 +1,10 @@
+overrides:
+  '@wagmi/core': 2.22.1
+  '@wagmi/connectors': 6.2.0
+
+allowBuilds:
+  '@reown/appkit': true
+  bufferutil: true
+  esbuild: true
+  keccak: true
+  utf-8-validate: true

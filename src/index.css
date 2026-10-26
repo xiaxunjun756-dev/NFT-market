@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    @apply bg-[#181818] antialiased leading-normal text-white/90;
+    color-scheme: light dark;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      @apply bg-[#f8f8f8] text-[#181818];
+    }
+  }
+
+  body {
+    @apply bg-cover;
+    background-image: url('./assets/bg.webp');
+  }
+}
